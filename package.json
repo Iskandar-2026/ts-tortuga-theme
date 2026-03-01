@@ -1,0 +1,29 @@
+{
+    "name": "Tortuga TS Theme",
+    "description": "Tiny banners are sad",
+    "version": "1.0.0",
+    "identifier": "mytheme.themes.dark",
+    "engines": {
+        "teamspeak": 1
+    },
+    "repository": {
+        "url": "https://github.com/Iskandar-2026/ts-tortuga-theme.git",
+        "directory": "myteamspeaktheme",
+        "type": "git"
+    },
+    "image": "theme.png",
+    "license": "MIT",
+    "author": {
+        "name": "Iskandar M."
+    },
+    "content": {
+        "themes": [
+            {
+                "name": "Tortuga Teamspeak Theme Dark",
+                "source": "teamspeak.css",
+                "image": "theme.png",
+                "apiVersion": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+:root {
+    /* --tsv-icon-scale: 1.25; */
+}
+
+/* .ts-server-header .tsv-view-banner .tsv-view-accessory {
+    margin-top: calc((var(--total-banner-height) - var(--tsv-icon-size-xlarge)) / 1);
+}
+
+/* This will increase the height of the banner to show more content */
+.ts-server-header .tsv-view-banner, .ts-account-settings-view .tsv-view-banner {
+    --total-banner-height: 200px !important;
+}
+
+/* This will make the background image stand out more with less shadowing */
+.tsv-view-background::after {
+    opacity: 0.2 !important;
+    /* DEFAULT: 0.9 */
+}
+
+.ts-server-header .tsv-view-banner .tsv-view-image {
+    position: relative;
+    top: -75px;
+}
+
+.ts-server-header .tsv-view-banner .tsv-view-content{
+    position: relative;
+    bottom: -33px;
+}
+
+.ts-server-header .tsv-view-banner .tsv-view-content .tsv-text-truncate {    
+    position: absolute;
+    left: 95px;
+    /* bottom: -45px; */
+}
+
+.tsv-view-content .tsv-text-truncate{
+    color:#D4AF37;
+}
+
+.ts-server-header .tsv-icon.tsv-icon-stack svg[name="server"] g g path {
+    fill: #D4AF37!important;
+    transform: scale(0.95);
+    transform-origin: center;
+}
+.ts-server-header .tsv-icon.tsv-icon-stack svg[name="server"] {
+    filter:
+        drop-shadow(0 0 2px rgba(212, 175, 55, 0.5))
+        drop-shadow(0 0 4px rgba(255, 215, 0, 0.3));
+}
+
+.tsv-icon.tsv-icon-stack.tsv-server-tree-icon.channel {
+    transform: scale(1.8);
+}
+.ts-server-tree-item-leaf.client .tsv-item-highlight {
+    border: unset!important;
+}
+
+
+.ts-server-tree-client-status-wrapper>.ts-server-tree-inactive-status:not(:first-child) {
+    height: 35px;
+}
+.ts-server-tree-group-icon {
+    width: 30px!important;
+    height: 30px!important;
+}
+
+
+.ts-server-tree-item-node-content .mute-indicator{
+    transform: scale(0.7);
+}
+
+.tsv-server-tree-icon{
+    transform: scale(1.3);
+}
+
+
+/* .tsv-resources-group .tsv-resize-area-container .ts-contact-list .tsv-item.tsv-item-active-secondary,
+.tsv-resources-group .tsv-resize-area-container .ts-room-list .tsv-item.tsv-item-active-secondary {
+    padding-left: 18px;
+} */
+
+
+.tsv-icon.tsv-icon-stack.tsv-icon-primary{
+    transform: scale(1.45);
+}
